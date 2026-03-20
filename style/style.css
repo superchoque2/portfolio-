@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freckle+Face&family=Oswald:wght@200..700&family=TASA+Orbiter:wght@400..800&family=Tektur:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TASA Orbiter", sans-serif;
+}
+
+/* Essa propriedade é usada para controlar o comportamento de rolagem em elementos de rolagem.
+Quando definida como 'smooth', a rolagem ocorre de forma suave, com uma transição gradual,
+em vez de um deslocamento abrupto. Isso cria uma experiência de rolagem mais suave e agradável
+   para os usuários. */
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primeira-cor: #000DFF;
+    --segunda-cor: #000000;
+    --terceira-cor: #000561;
+    --quarta-cor: #ffffffd6;
+    --quinta-cor: #0a1081;
+    --sexta-cor: #3942e7;
+    --sentima-cor: #0408baa5;
+    --oitava-cor: #360388;
+}
+
+body {
+    background-color: var(--segunda-cor);
+    color: var(--quarta-cor);
+}
+
+.navegacao {
+    position: fixed;
+    background-color: rgba(15, 23, 42, 0.8);
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    padding: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--quarta-cor);
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 0.3s;
+    position: relative;
+    padding: 0.5rem 0;
+}

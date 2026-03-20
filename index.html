@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Elias_Oliveira_Silva">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style/style.css">
 
 
     <title>portifolio</title>
@@ -13,14 +14,18 @@
 
 <body>
     <header>
-        <nav class="menu">
-            <ul>
-                <li><a href="#incio">inicio</a></li>
-                <li><a href="#sobre">sobre</a></li>
-                <li><a href="#projeto">projetos</a></li>
-                <li><a href="#contatos">contatos</a></li>
+        <!-- ////////////////////////////////menu de navegação////////////////////////////////////// -->
+
+        <nav class="navegacao">
+            <ul class="menu">
+                <li><a href="#incio" class="menu-link">inicio</a></li>
+                <li><a href="#sobre" class="menu-link">sobre</a></li>
+                <li><a href="#projeto" class="menu-link">projetos</a></li>
+                <li><a href="#contatos" class="menu-link">contatos</a></li>
             </ul>
         </nav>
+
+        <!-- ////////////////////////////////inicio////////////////////////////////////// -->
 
         <main id="inicio" class="começo">
             <div>
@@ -57,29 +62,44 @@
             <div class="projetos-caixa">
 
                 <div class="projetos-card">
-                    <img src="#" alt="projeto 1">
-                    <h3 class="projeto-card-titulo">Projeto 1</h3>
-                    <p class="projeto-card-descricao">Descrição do projeto 1</p>
+                    <img src="img/projeto 1.png" alt="projeto 1">
+                    <h3 class="projeto-card-titulo">agencia de viagens</h3>
+
+                    <p class="projeto-card-descricao">essa pagina foi feita para mostra habilidades simples de html e
+                        css demosntrando as minhas competencias no projeto</p>
                 </div>
 
 
                 <div class="projetos-card">
-                    <img src="#" alt="projeto 2">
-                    <h3 class="projeto-card-titulo">Projeto 2</h3>
-                    <p class="projeto-card-descricao">Descrição do projeto 2</p>
+                    <img src="img/projeto 2.png" alt="projeto 2">
+                    <h3 class="projeto-card-titulo">loja de tecnologia</h3>
+
+                    <p class="projeto-card-descricao">essa projeto já tem java script adicionado para mostra um dominio
+                        sobra minupulação de dom nos projetos</p>
                 </div>
 
                 <div class="projetos-card">
-                    <img src="#" alt="projeto 3">
-                    <h3 class="projeto-card-titulo">Projeto 3</h3>
-                    <p class="projeto-card-descricao">Descrição do projeto 3</p>
+                    <img src="img/projeto 3.png" alt="projeto 3">
+                    <h3 class="projeto-card-titulo">sorveteria</h3>
+
+                    <p class="projeto-card-descricao">essa pagina msotra habilidades basicas de html e css e java script
+                        para mostras as minhas habilidades nesse projeto</p>
                 </div>
 
             </div>
         </section>
 
+        <section id="contatos" class="contatos">
+            <h2 class="contatos-titulo">Contatos</h2>
+            <form class="formulario-contato" id="formulario">
 
+                <div class="formulario-nome">
+                    <input placeholder="nome" class="formulario-campo">
+                </div>
 
+                <div class="formulario-grupo">
+                    <textarea placeholder="Digite sua mensagem" class="formulario-texto"></textarea>
+                </div>
     </header>
 
 
