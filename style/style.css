@@ -151,8 +151,190 @@ h1 {
 
 .sobre-texto {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 /* //////////////////////////////////projetos////////////////////////////////////// */
+
+.projetos {
+    padding: 6rem 2rem;
+}
+
+.projetos-titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+.projetos-caixa {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projetos-card {
+    border-radius: 16px;
+    border: 1px solid;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.354);
+    padding: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.projeto-card-imagem {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+
+.projeto-card-titulo {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
+    color: white;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+.projetos-card:hover {
+    box-shadow: 0 0 10px var(--quarta-cor);
+    transform: translateY(-10px) scale(1.03);
+    transition: 0.8s ease;
+}
+
+.projeto-card-descricao {
+    color: var(--quarta-cor);
+    line-height: 1.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+.projeto-caixa-texto {
+    padding: 1.5rem;
+}
+
+
+.projeto-card-botao {
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid var(--segunda-cor);
+    background-color: rgba(12, 9, 201, 0.775);
+    color: white;
+    cursor: pointer;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+.projeto-card-botao:hover {
+    background-color: var(--terceira-cor);
+    border-color: var(--segunda-cor);
+    transition: 0.5s ease;
+}
+
+/* //////////////////////////////////contato////////////////////////////////////// */
+
+.contato {
+    padding: 6rem 2rem;
+}
+
+.contatos-titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+.formulario-contato {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 16px;
+    border: 1px solid;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.457);
+}
+
+.formulario-grupo {
+    margin-bottom: 1.5rem;
+}
+
+.formulario-texto {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--segunda-cor);
+    background-color: rgba(12, 9, 201, 0.775);
+    color: white;
+    font-size: 1rem;
+    resize: vertical;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+    outline: none;
+}
+
+.formulario-texto:focus {
+    border-color: var(--quarta-cor);
+    background-color: rgba(12, 9, 201, 0.775);
+    transition: 0.3s ease;
+}
+
+input::placeholder {
+    color: white
+}
+
+textarea::placeholder {
+    color: white
+}
+
+.formulario-botao {
+    display: block;
+    margin: 0 auto;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 2px solid var(--segunda-cor);
+    background-color: rgba(12, 9, 201, 0.775);
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+    text-align: center;
+    width: 100%;
+}
+
+.formulario-botao:hover {
+    background-color: var(--terceira-cor);
+    border-color: var(--segunda-cor);
+    transition: 0.5s ease;
+}

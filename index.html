@@ -22,7 +22,7 @@
 
         <nav class="navegacao">
             <ul class="menu">
-                <li><a href="#incio" class="menu-link">inicio</a></li>
+                <li><a href="#inicio" class="menu-link">inicio</a></li>
                 <li><a href="#sobre" class="menu-link">sobre</a></li>
                 <li><a href="#projeto" class="menu-link">projetos</a></li>
                 <li><a href="#contatos" class="menu-link">contatos</a></li>
@@ -66,44 +66,60 @@
             <div class="projetos-caixa">
 
                 <div class="projetos-card">
-                    <img src="img/projeto 1.png" alt="projeto 1">
-                    <h3 class="projeto-card-titulo">agencia de viagens</h3>
+                    <img src="img/projeto 1.png" alt="projeto 1" class="projeto-card-imagem">
 
-                    <p class="projeto-card-descricao">essa pagina foi feita para mostra habilidades simples de html e
-                        css demosntrando as minhas competencias no projeto</p>
+                    <div class="projeto-caixa-texto">
+                        <h3 class="projeto-card-titulo">agencia de viagens</h3>
+                        <p class="projeto-card-descricao">essa pagina foi feita para mostra habilidades simples de html
+                            e css demosntrando as minhas competencias no projeto</p>
+                        <button class="projeto-card-botao">ver projeto</button>
+                    </div>
+
                 </div>
 
 
                 <div class="projetos-card">
-                    <img src="img/projeto 2.png" alt="projeto 2">
-                    <h3 class="projeto-card-titulo">loja de tecnologia</h3>
+                    <img src="img/projeto 2.png" alt="projeto 2" class="projeto-card-imagem">
 
-                    <p class="projeto-card-descricao">essa projeto já tem java script adicionado para mostra um dominio
-                        sobra minupulação de dom nos projetos</p>
+                    <div class="projeto-caixa-texto">
+                        <h3 class="projeto-card-titulo">loja de tecnologia</h3>
+                        <p class="projeto-card-descricao">essa projeto já tem java script adicionado para mostra um
+                            dominio
+                            sobra minupulação de dom nos projetos</p>
+                        <button class="projeto-card-botao">ver projeto</button>
+                    </div>
+
                 </div>
 
                 <div class="projetos-card">
-                    <img src="img/projeto 3.png" alt="projeto 3">
-                    <h3 class="projeto-card-titulo">sorveteria</h3>
+                    <img src="img/projeto 3.png" alt="projeto 3" class="projeto-card-imagem">
 
-                    <p class="projeto-card-descricao">essa pagina msotra habilidades basicas de html e css e java script
-                        para mostras as minhas habilidades nesse projeto</p>
+                    <div class="projeto-caixa-texto">
+                        <h3 class="projeto-card-titulo">sorveteria</h3>
+                        <p class="projeto-card-descricao">essa pagina msotra habilidades basicas de html e css e java
+                            script
+                            para mostras as minhas habilidades nesse projeto</p>
+                        <button class="projeto-card-botao">ver projeto</button>
+                    </div>
+
                 </div>
 
             </div>
         </section>
 
         <section id="contatos" class="contatos">
-            <h2 class="contatos-titulo">Contatos</h2>
-            <form class="formulario-contato" id="formulario">
+            <h2 class="contatos-titulo">entre em contato</h2>
 
-                <div class="formulario-nome">
-                    <input placeholder="nome" class="formulario-campo">
+            <form class="formulario-contato" id="formulario">
+                <div class="formulario-grupo">
+                    <input placeholder="nome" class="formulario-texto" type="text" name="nome" required>
                 </div>
 
                 <div class="formulario-grupo">
-                    <textarea placeholder="Digite sua mensagem" class="formulario-texto"></textarea>
+                    <textarea placeholder="Digite sua mensagem" class="formulario-texto" name="mensagem"
+                        required></textarea>
                 </div>
+                <button class="formulario-botao" type="submit">Enviar</button>
             </form>
 
         </section>
