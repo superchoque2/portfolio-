@@ -18,6 +18,7 @@
 
 <body>
     <header>
+        <div class="particulas"></div>
         <!-- ////////////////////////////////menu de navegação////////////////////////////////////// -->
 
         <nav class="navegacao">
@@ -33,7 +34,7 @@
 
         <main id="inicio" class="comeco">
 
-            <img src="img/WhatsApp Image 2026-02-25 at 22.15.30.jpeg" alt="fote do elias" class="foto-do-perfil">
+            <img src="img/WhatsApp Image 2026-02-25 at 22.15.30.jpeg" alt="foto do elias" class="foto-do-perfil">
             <h1>Elias oliveira Silva</h1>
             <p class="sub-descrição">Desenvolvedor front end</p>
             <P class="descricao">Seja bem vindo ao meu portifolio, aqui voce vai encontrar alguns dos meus projetos
@@ -65,7 +66,7 @@
             </div>
         </section>
 
-        <!-- ////////////////////projetos////////////////////////////////////// -->
+        <!--/////////////////////////////////////////projetos//////////////////////////////////////////////////// -->
 
         <section id="projeto" class="projetos">
             <h2 class="projetos-titulo">Meus projetos</h2>
@@ -113,22 +114,26 @@
             </div>
         </section>
 
+        <!--//////////////////////////////////////////formulario/////////////////////////////////////////////////// -->
+
         <section id="contatos" class="contatos">
             <h2 class="contatos-titulo">entre em contato</h2>
 
-            <form class="formulario-contato" id="formulario">
+            <form class="formulario-contato" id="formulario" onsubmit="enviarMensagem (event)">
                 <div class="formulario-grupo">
-                    <input placeholder="nome" class="formulario-texto" type="text" name="nome" required>
+                    <input placeholder="nome" class="formulario-texto" id="nome" type="text" name="nome" required>
                 </div>
 
                 <div class="formulario-grupo">
-                    <textarea placeholder="Digite sua mensagem" class="formulario-texto" name="mensagem"
+                    <textarea placeholder="Digite sua mensagem" class="formulario-texto" id="mensagem" name="mensagem"
                         required></textarea>
                 </div>
-                <button class="formulario-botao" type="submit">Enviar</button>
+                <button class="formulario-botao" type="submit">Enviar mensagem</button>
             </form>
 
         </section>
+
+        <!--///////////////////////////////////////redes sociais////////////////////////////////////////////////-->
 
         <section class="meio-de-contato">
             <h2 class="contatos-titulo">Redes sociais</h2>
