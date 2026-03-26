@@ -11,7 +11,9 @@
 
 /* Smartphones (600px para baixo) */
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 480px) {}
+
+@media only screen and (max-width: 768px) {
 
 
 
@@ -140,7 +142,7 @@
     }
 
     .formulario-contato {
-        max-width: 80%;
+        max-width: 90%;
         margin: 0 auto;
     }
 
@@ -148,8 +150,8 @@
 
 
     .img-contato {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
         margin: 0 auto;
         margin-bottom: 10px;
 
