@@ -253,6 +253,7 @@ h1 {
     border: 2px solid var(--segunda-cor);
     background-color: rgba(12, 9, 201, 0.775);
     color: white;
+    text-decoration: none;
     cursor: pointer;
     text-shadow: -2px -2px 0 black,
         2px -2px 0 black,
@@ -351,6 +352,9 @@ textarea::placeholder {
     border-color: var(--segunda-cor);
     transition: 0.5s ease;
 }
+
+/*////////////////////////rede social//////////////////////////////*/
+
 
 .meio-de-contato {
     padding: 6rem 2rem;
