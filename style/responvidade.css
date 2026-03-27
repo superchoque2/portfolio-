@@ -9,9 +9,136 @@
     --oitava-cor: #360388;
 }
 
-/* Smartphones (600px para baixo) */
 
-@media (max-width: 480px) {}
+
+@media (max-width: 480px) {
+
+
+    /*///////////////////////////////////comeco////////////////////////////////////// */
+
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 5px;
+        margin-left: 30px;
+    }
+
+    .descricao {
+
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .foto-do-perfil {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+
+    /* //////////////////////////////////sobre mim////////////////////////////////////// */
+
+    .sobre {
+        margin-top: -80px;
+    }
+
+
+    .sobre-titulo {
+        font-size: 1.5rem;
+    }
+
+    .sobre-caixa {
+        padding: 0.5rem;
+        max-width: 100%;
+    }
+
+    .sobre-texto {
+        font-size: 0.9rem;
+    }
+
+    /* //////////////////////////////////projetos////////////////////////////////////// */
+
+    .projetos-titulo {
+        font-size: 1.2rem;
+    }
+
+    .projetos {
+        margin-top: -90px;
+    }
+
+    .projetos-caixa {
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .projeto-card-titulo {
+        font-size: 1.2rem;
+    }
+
+
+
+    .projeto-card-descricao {
+        font-size: 1rem;
+    }
+
+    .projeto-card-botao {
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    /* //////////////////////////////////contato////////////////////////////////////// */
+
+    .contato {
+        margin-top: -90px;
+    }
+
+    .formulario-contato {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    /*/////////////////rede social///////////////////// */
+
+    .texto-rede-social {
+        font-size: 1rem;
+        text-align: center;
+
+
+    }
+
+    .meio-de-contato {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rede {
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    /*/////////////////rodape///////////////////// */
+    .rodape-texto {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 768px) {
 
@@ -92,7 +219,7 @@
 
     .sobre-caixa {
 
-        max-width: 90%;
+        max-width: 80%;
         margin: 0 auto;
         margin-top: 10px;
         padding: 1rem;
@@ -146,22 +273,27 @@
         margin: 0 auto;
     }
 
+
+
+
     /*/////////////////rede social///////////////////// */
 
 
     .img-contato {
         width: 60px;
         height: 60px;
-        margin: 0 auto;
-        margin-bottom: 10px;
-
-
-
     }
 
     .texto-rede-socia {
         font-size: 1.2rem;
         text-align: center;
+    }
+
+    .contatos-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
     }
 
     /*/////////////////rodape///////////////////// */
@@ -173,15 +305,145 @@
 
 }
 
+@media only screen and (max-width: 940px) {
+
+    /* ////////////////////////////////////comeco///////////////////// */
+
+    .sub-descrição {
+        font-size: 2rem;
+        margin: 5px;
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    .sobre {
+        margin-top: -80px;
+    }
+
+    .sobre-titulo {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+
+    .sobre-caixa {
+        padding: 1rem;
+        max-width: 90%;
+        height: auto;
+    }
+
+    .sobre-texto {
+        font-size: 1.2rem;
+    }
+
+    /* //////////////////////////////projetos///////////////////// */
+
+    .projetos {
+        margin-top: -90px;
+    }
+
+    .projetos-titulo {
+        font-size: 3rem;
+    }
+
+    .projetos-caixa {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* //////////////////////////////contato///////////////////// */
+
+    .img-contato {
+        width: 60px;
+        height: 60px;
+    }
+
+    .texto-rede-social {
+        font-size: 1.2rem;
+        text-align: center;
+
+    }
+
+    .contatos-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+}
 
 
 
-
-/*Dispostivos Médios (Tablets deitados, 768px para cima) */
-@media only screen and (min-width: 768px) {}
 
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .sub-descrição {
+        font-size: 2rem;
 
-/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
-@media only screen and (min-width: 1200px) {}
+    }
+
+    /* /////////////////////////////////////sobre mim/////////////////////////// */
+
+
+    .sobre-titulo {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .sobre {
+        margin-top: -100px;
+    }
+
+    /* //////////////////////////////projetos///////////////////// */
+
+    .projeto {
+        margin-top: -100px;
+    }
+
+    .projetos-titulo {
+        font-size: 3rem;
+    }
+
+    .projetos-caixa {
+
+        max-width: 1000px;
+
+    }
+
+    .projeto-card-botao {
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+
+    /* //////////////////////////////contato///////////////////// */
+
+    .texto-rede-social {
+        font-size: 1.2rem;
+        text-align: center;
+
+    }
+
+    .img-contato {
+        width: 80px;
+        height: 80px;
+    }
+
+    .contatos-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .rede {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 30px;
+
+    }
+
+
+}

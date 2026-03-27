@@ -392,8 +392,17 @@ textarea::placeholder {
     gap: 1.5rem;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
+    gap: 40px;
 }
+
+.rede {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 .texto-rede-social {
     color: var(--quarta-cor);
@@ -403,6 +412,7 @@ textarea::placeholder {
         -2px 2px 0 black,
         2px 2px 0 black;
     text-decoration: none;
+    margin-top: 20px;
 }
 
 .texto-rede-social:hover {
