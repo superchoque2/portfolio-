@@ -28,11 +28,15 @@ html {
     --oitava-cor: #360388;
 }
 
-body {
-    background: #030005;
-    background: linear-gradient(182deg, rgba(3, 0, 5, 1) 0%, rgba(0, 0, 237, 1) 68%, rgb(1, 19, 184) 70%);
-}
 
+
+body {
+
+    background-image: url(../img/ChatGPT\ Image\ 21\ de\ abr.\ de\ 2026\,\ 19_50_53.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 /*////////////////////////////////menu de navegação////////////////////////////////////// */
 .navegacao {
@@ -164,9 +168,54 @@ h1 {
 
 .sobre-texto {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-bottom: 2rem;
 }
+
+
+/* //////////////////////////////////serviços////////////////////////////////////// */
+
+.servicos {
+    padding: 6rem 2rem;
+}
+
+.servicos-titulo {
+    text-align: center;
+    font-size: 2.7rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+}
+
+.servicos-caixa {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 16px;
+    border: 4px solid var(--oitava-cor);
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.671);
+}
+
+.servicos-texto {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+
+
 
 /* //////////////////////////////////projetos////////////////////////////////////// */
 
@@ -189,16 +238,16 @@ h1 {
 .projetos-caixa {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
+    gap: 5rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .projetos-card {
     border-radius: 16px;
-    border: 1px solid;
+    border: 1px solid var(--segunda-cor);
     backdrop-filter: blur(5px);
-    background: rgba(0, 0, 0, 0.354);
+    background: rgba(0, 0, 0, 0.536);
     padding: 1rem;
     overflow: hidden;
     cursor: pointer;
@@ -225,7 +274,7 @@ h1 {
 }
 
 .projetos-card:hover {
-    box-shadow: 0 0 10px var(--quarta-cor);
+    box-shadow: 0 0 20px var(--oitava-cor);
     transform: translateY(-10px) scale(1.03);
     transition: 0.8s ease;
 }
@@ -290,7 +339,7 @@ h1 {
     margin: 0 auto;
     padding: 2rem;
     border-radius: 16px;
-    border: 1px solid;
+    border: 1px solid var(--segunda-cor);
     backdrop-filter: blur(10px);
     background: rgba(0, 0, 0, 0.457);
 }
@@ -304,7 +353,7 @@ h1 {
     padding: 1rem;
     border-radius: 5px;
     border: 1px solid var(--segunda-cor);
-    background-color: rgba(12, 9, 201, 0.775);
+    background-color: rgba(74, 5, 194, 0.775);
     color: white;
     font-size: 1rem;
     resize: vertical;
@@ -316,8 +365,8 @@ h1 {
 }
 
 .formulario-texto:focus {
-    border-color: var(--quarta-cor);
-    background-color: rgba(12, 9, 201, 0.775);
+    border-color: var(--segunda-cor);
+    background-color: rgba(74, 5, 194, 0.775);
     transition: 0.3s ease;
 }
 
@@ -335,7 +384,7 @@ textarea::placeholder {
     padding: 0.75rem;
     border-radius: 5px;
     border: 2px solid var(--segunda-cor);
-    background-color: rgba(12, 9, 201, 0.775);
+    background-color: rgba(74, 5, 194, 0.775);
     color: white;
     cursor: pointer;
     font-size: 1rem;

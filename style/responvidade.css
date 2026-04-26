@@ -17,7 +17,7 @@
     /*///////////////////////////////////comeco////////////////////////////////////// */
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 2.0rem;
         text-align: center;
         margin: 5px;
         margin-left: 30px;
@@ -26,7 +26,7 @@
     .descricao {
 
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     .foto-do-perfil {
@@ -44,7 +44,7 @@
 
 
     .sobre-titulo {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .sobre-caixa {
@@ -53,13 +53,13 @@
     }
 
     .sobre-texto {
-        font-size: 0.9rem;
+        font-size: 1.0rem;
     }
 
     /* //////////////////////////////////projetos////////////////////////////////////// */
 
     .projetos-titulo {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .projetos {
@@ -72,18 +72,27 @@
         text-align: center;
     }
 
+    .projeto-card-imagem {
+        width: 100%;
+        height: auto;
+        max-height: 220px;
+        object-fit: cover;
+        margin: 0 auto;
+        border-radius: 12px;
+    }
+
     .projeto-card-titulo {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
 
 
     .projeto-card-descricao {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 
     .projeto-card-botao {
-        font-size: 1rem;
+        font-size: 1.05rem;
         text-decoration: none;
     }
 
@@ -101,7 +110,7 @@
     /*/////////////////rede social///////////////////// */
 
     .texto-rede-social {
-        font-size: 1rem;
+        font-size: 1.05rem;
         text-align: center;
 
 
@@ -121,7 +130,7 @@
 
     /*/////////////////rodape///////////////////// */
     .rodape-texto {
-        font-size: 1rem;
+        font-size: 1.05rem;
         text-align: center;
     }
 
@@ -181,7 +190,7 @@
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 3.0rem;
         text-align: center;
         margin: 5px;
         margin-left: 30px;
@@ -190,7 +199,7 @@
     }
 
     .sub-descrição {
-        font-size: 1.8rem;
+        font-size: 2.0rem;
         margin: 5px;
         margin-left: 30px;
         text-align: center;
@@ -201,7 +210,7 @@
 
         max-width: 400px;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1.25rem;
 
 
     }
@@ -213,7 +222,7 @@
     }
 
     .sobre-titulo {
-        font-size: 2rem;
+        font-size: 2.4rem;
 
     }
 
@@ -234,7 +243,7 @@
     }
 
     .projetos-titulo {
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
 
     .projetos-caixa {
@@ -246,22 +255,24 @@
 
     .projeto-card-imagem {
         width: 100%;
-        height: 270px;
+        height: auto;
+        max-height: 320px;
         margin: 0 auto;
     }
 
     .projeto-card-titulo {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
 
     .projeto-card-descricao {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .projeto-card-botao {
-        font-size: 1rem;
+        font-size: 1.05rem;
         text-decoration: none;
     }
+
 
     /* //////////////////////////////////contato////////////////////////////////////// */
     .contato {
@@ -335,6 +346,8 @@
     .sobre-texto {
         font-size: 1.2rem;
     }
+
+
 
     /* //////////////////////////////projetos///////////////////// */
 
