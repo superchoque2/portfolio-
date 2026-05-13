@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Pega o textarea/input com id="mensagem" do HTML
     const mensagem = document.getElementById('mensagem');
     // Número do WhatsApp no formato internacional (apenas dígitos)
-    const telefone = '5511987371566'; // Substitua pelo seu número
+    const telefone = '5511952826480'; // Substitua pelo seu número
 
     // Função que roda quando o formulário é enviado
     function enviarMensagem(event) {
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Lê os valores atuais dos campos e monta a mensagem
-        const texto = `Olá, meu nome é ${nome.value} e minha mensagem é: ${mensagem.value}`;
+        const texto = `Olá, meu nome é ${nome.value} o meu pedido é ${mensagem.value}`;
         // Codifica a mensagem para usar em URL (substitui espaços/caracteres especiais)
         const msgFormatada = encodeURIComponent(texto);
         // Monta a URL do wa.me com o número e a mensagem codificada

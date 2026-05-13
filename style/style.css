@@ -34,8 +34,9 @@ body {
 
     background-image: url(../img/ChatGPT\ Image\ 21\ de\ abr.\ de\ 2026\,\ 19_50_53.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 101%;
     background-position: center;
+
 }
 
 /*////////////////////////////////menu de navegação////////////////////////////////////// */
